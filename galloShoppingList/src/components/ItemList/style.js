@@ -19,9 +19,11 @@ export const styles = StyleSheet.create({
         textDecorationLine: 'none',
     },
     itemBought: {
-        color: '#fff',
+        color: 'red',
         fontSize: 24,
         textDecorationLine: 'line-through',
+        textDecorationStyle: 'solid',
+        textDecorationColor: 'red'
     },
     actionIcon: {
         height: 40,
